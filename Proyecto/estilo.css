@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0c02d;
+    color: white;
+    padding: 1rem;
+}
+
+header h1, header nav a {
+    color: white;
+}
+
+header .logo-left, header .logo-right {
+    width: 80px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+.texto-destacado {
+    color: #f0c02d;
+}
+
+.galeria img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+#contacto section {
+    text-align: left;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #f0c02d;
+}
+
+#que-hacemos {
+    text-align: center;
+}
+
+#servicios {
+    text-align: left;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#nuestro-enfoque {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#contenido-reducido section {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 5px 0 5px;
+}
+
+form input, form textarea {
+    width: 96.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #f0c02d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1f88c1;
+}
+
+footer {
+    text-align: center;
+    background-color: #f0c02d;
+    color: white;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
